@@ -32,6 +32,7 @@ data "aws_availability_zones" "available_zones" {}
 # create default subnet if one does not exit
 resource "aws_default_subnet" "default_az1" {
   availability_zone = data.aws_availability_zones.available_zones.names[0]
+  depends_on = [aws_default_vpc.default_vpc]
 
   tags = {
     Name = "default subnet"
