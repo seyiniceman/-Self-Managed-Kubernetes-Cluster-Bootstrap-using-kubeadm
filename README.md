@@ -132,3 +132,10 @@ The project demonstrates Infrastructure as Code (IaC), Linux administration, Kub
 
 Successfully provisioned infrastructure and deployed a self-managed Kubernetes cluster using kubeadm. Configured cluster networking with Calico, joined worker nodes to the control plane, and verified cluster health. This project demonstrates practical Kubernetes administration skills, Infrastructure as Code, and automation techniques commonly used in production DevOps environments.
 
+
+# Author
+
+**Seyi Akinmusere**
+
+DevOps | Cloud Engineer | AWS | Terraform | Jenkins | Docker | Kubernetes
+
